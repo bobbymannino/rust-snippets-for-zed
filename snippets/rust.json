@@ -1,0 +1,12 @@
+{
+  "Initialize an immutable vec": {
+    "prefix": "let-vec",
+    "description": "Initialize an empty immutable empty vec",
+    "body": ["let ${1:vec} = vec![$2];"]
+  },
+  "Initialize a mutable vec": {
+    "prefix": "mut-vec",
+    "description": "Initialize an empty mutable empty vec",
+    "body": ["let mut ${1:vec} = vec![$2];"]
+  }
+}

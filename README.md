@@ -13,3 +13,6 @@ git clone https://github.com/bobbymannino/rust-snippets-for-zed
 4. Select the folder you cloned
 
 ## Available Snippets
+
+- `let-vec` Initialize an immutable vec
+- `mut-vec` Initialize a mutable vec
