@@ -1,0 +1,15 @@
+# Rust Snippets for Zed
+
+## Installation
+
+1. Clone this repo:
+
+```shell
+git clone https://github.com/bobbymannino/rust-snippets-for-zed
+```
+
+2. Go to the Extensions menu in the Zed IDE
+3. Click "Install Dev Extension"
+4. Select the folder you cloned
+
+## Available Snippets
