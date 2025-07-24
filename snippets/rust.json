@@ -28,5 +28,40 @@
       "  Err(error) => { $3 }",
       "}"
     ]
+  },
+  "If let some": {
+    "prefix": "if-some",
+    "description": "If let Some pattern matching",
+    "body": ["if let Some(${1:value}) = ${2:option} {", "  $3", "}"]
+  },
+  "Clone struct": {
+    "prefix": "clone-struct",
+    "description": "Clone a struct",
+    "body": [
+      "#[derive(Clone)]",
+      "struct ${1:Name} {",
+      "  ${2:field}: ${3:Type},",
+      "}"
+    ]
+  },
+  "Debug struct": {
+    "prefix": "debug-struct",
+    "description": "Debug struct",
+    "body": [
+      "#[derive(Debug)]",
+      "struct ${1:Name} {",
+      "  ${2:field}: ${3:Type},",
+      "}"
+    ]
+  },
+  "Clone and debug struct": {
+    "prefix": "clone-debug-struct",
+    "description": "Clone and debug struct",
+    "body": [
+      "#[derive(Clone, Debug)]",
+      "struct ${1:Name} {",
+      "  ${2:field}: ${3:Type},",
+      "}"
+    ]
   }
 }

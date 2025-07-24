@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.0.3
+
+### New Snippets:
+
+- `if-some` If let Some pattern matching
+- `clone-struct` Clone struct
+- `debug-struct` Debug struct
+- `clone-and-debug-struct` Clone and debug struct
+
 ## v0.0.2
 
 ### New Snippets:

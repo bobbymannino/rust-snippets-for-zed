@@ -18,3 +18,7 @@ git clone https://github.com/bobbymannino/rust-snippets-for-zed
 - `mut-vec` Initialize a mutable vec
 - `match-option` Match an option statement
 - `match-result` Match a result statement
+- `if-some` If let Some pattern matching
+- `clone-struct` Clone struct
+- `debug-struct` Debug struct
+- `clone-and-debug-struct` Clone and debug struct
