@@ -16,3 +16,5 @@ git clone https://github.com/bobbymannino/rust-snippets-for-zed
 
 - `let-vec` Initialize an immutable vec
 - `mut-vec` Initialize a mutable vec
+- `match-option` Match an option statement
+- `match-result` Match a result statement

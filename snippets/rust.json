@@ -8,5 +8,25 @@
     "prefix": "mut-vec",
     "description": "Initialize an empty mutable empty vec",
     "body": ["let mut ${1:vec} = vec![$2];"]
+  },
+  "Match an option": {
+    "prefix": "match-option",
+    "description": "Match an option statement",
+    "body": [
+      "match ${1:option} {",
+      "  Some(value) => { $2 }",
+      "  None => { $3 }",
+      "}"
+    ]
+  },
+  "Match a result": {
+    "prefix": "match-result",
+    "description": "Match a result statement",
+    "body": [
+      "match ${1:result} {",
+      "  Ok(value) => { $2 }",
+      "  Err(error) => { $3 }",
+      "}"
+    ]
   }
 }
