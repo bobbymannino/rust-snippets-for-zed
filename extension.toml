@@ -1,6 +1,6 @@
 id = "rust-snippets"
 name = "Rust Snippets"
-version = "0.0.3"
+version = "0.0.4"
 schema_version = 1
 authors = ["Bobby Mannino <manninobobby@icloud.com>"]
 description = "Rust snippets for the Zed IDE. A collection of Rust snippets to improve your development speed."

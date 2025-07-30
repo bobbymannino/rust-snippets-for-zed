@@ -22,3 +22,8 @@ git clone https://github.com/bobbymannino/rust-snippets-for-zed
 - `clone-struct` Clone struct
 - `debug-struct` Debug struct
 - `clone-and-debug-struct` Clone and debug struct
+- `win-only` A Windows only derive
+- `mac-only` A macOS only derive
+- `linux-only` A Linux only derive
+- `ios-only` An iOS only derive
+- `android-only` An Android only derive

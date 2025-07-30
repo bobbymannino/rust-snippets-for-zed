@@ -63,5 +63,30 @@
       "  ${2:field}: ${3:Type},",
       "}"
     ]
+  },
+  "Windows only derive": {
+    "prefix": "win-only",
+    "description": "A Windows only derive",
+    "body": ["#[cfg(target_os = \"windows\")]"]
+  },
+  "MacOS only derive": {
+    "prefix": "mac-only",
+    "description": "A MacOS only derive",
+    "body": ["#[cfg(target_os = \"macos\")]"]
+  },
+  "Linux only derive": {
+    "prefix": "linux-only",
+    "description": "A Linux only derive",
+    "body": ["#[cfg(target_os = \"linux\")]"]
+  },
+  "iOS only derive": {
+    "prefix": "ios-only",
+    "description": "An iOS only derive",
+    "body": ["#[cfg(target_os = \"ios\")]"]
+  },
+  "Android only derive": {
+    "prefix": "android-only",
+    "description": "An Android only derive",
+    "body": ["#[cfg(target_os = \"android\")]"]
   }
 }
