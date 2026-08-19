@@ -2,7 +2,7 @@
 
 ## v0.0.4
 
-### New Snippets:
+### New Snippets
 
 - `win-only` A Windows only derive
 - `mac-only` A macOS only derive
@@ -12,7 +12,7 @@
 
 ## v0.0.3
 
-### New Snippets:
+### New Snippets
 
 - `if-some` If let Some pattern matching
 - `clone-struct` Clone struct
@@ -21,14 +21,14 @@
 
 ## v0.0.2
 
-### New Snippets:
+### New Snippets
 
 - `match-option` Match an option statement
 - `match-result` Match a result statement
 
 ## v0.0.1
 
-### New Snippets:
+### New Snippets
 
 - `let-vec` Initialize an immutable vec
 - `mut-vec` Initialize a mutable vec
