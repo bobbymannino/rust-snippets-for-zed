@@ -1,5 +1,36 @@
 # Changelog
 
+## v0.1.0
+
+### New Snippets
+
+- `if-ok` If let Ok pattern matching
+- `let-else` Let else binding with early return
+- `while-some` While let Some loop
+- `for-in` For loop over an iterator
+- `fn` A function
+- `async-fn` An async function
+- `pub-fn` A public function
+- `pub-async-fn` A public async function
+- `impl` An impl block
+- `impl-trait` Implement a trait for a type
+- `fn-new` A new() constructor
+- `impl-default` Implement Default for a type
+- `impl-display` Implement Display for a type
+- `impl-from` Implement From for a type
+- `trait` A trait definition
+- `enum` An enum definition
+- `match` A match statement
+- `test` A test function
+- `test-mod` A tests module
+- `main` The main function
+- `serde-struct` A serializable and deserializable struct
+- `derive-all` Derive the common traits
+- `hash-map` Initialize a mutable HashMap
+- `hash-set` Initialize a mutable HashSet
+- `unsafe` An unsafe block
+- `allow` Allow a lint
+
 ## v0.0.4
 
 ### New Snippets
